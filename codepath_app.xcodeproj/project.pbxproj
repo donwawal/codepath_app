@@ -13,6 +13,11 @@
 		840065811B6D4D9200B08092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840065801B6D4D9200B08092 /* Images.xcassets */; };
 		840065841B6D4D9200B08092 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840065821B6D4D9200B08092 /* LaunchScreen.xib */; };
 		840065901B6D4D9200B08092 /* codepath_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400658F1B6D4D9200B08092 /* codepath_appTests.swift */; };
+		8400659A1B6DD56600B08092 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840065991B6DD56600B08092 /* ProfileViewController.swift */; };
+		8400659C1B6DD57A00B08092 /* CourseOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400659B1B6DD57A00B08092 /* CourseOverviewViewController.swift */; };
+		8400659E1B6DD94700B08092 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400659D1B6DD94700B08092 /* CourseCell.swift */; };
+		840065A01B6EC2F200B08092 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400659F1B6EC2F200B08092 /* EditProfileViewController.swift */; };
+		84DB972B1B7016AA001EBB44 /* CurrentWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB972A1B7016AA001EBB44 /* CurrentWeekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		840065891B6D4D9200B08092 /* codepath_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codepath_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8400658E1B6D4D9200B08092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8400658F1B6D4D9200B08092 /* codepath_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_appTests.swift; sourceTree = "<group>"; };
+		840065991B6DD56600B08092 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8400659B1B6DD57A00B08092 /* CourseOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseOverviewViewController.swift; sourceTree = "<group>"; };
+		8400659D1B6DD94700B08092 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		8400659F1B6EC2F200B08092 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		84DB972A1B7016AA001EBB44 /* CurrentWeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				840065791B6D4D9200B08092 /* AppDelegate.swift */,
 				8400657B1B6D4D9200B08092 /* ViewController.swift */,
 				8400657D1B6D4D9200B08092 /* Main.storyboard */,
+				8400659F1B6EC2F200B08092 /* EditProfileViewController.swift */,
+				8400659D1B6DD94700B08092 /* CourseCell.swift */,
+				840065991B6DD56600B08092 /* ProfileViewController.swift */,
+				84DB972A1B7016AA001EBB44 /* CurrentWeekViewController.swift */,
+				8400659B1B6DD57A00B08092 /* CourseOverviewViewController.swift */,
 				840065801B6D4D9200B08092 /* Images.xcassets */,
 				840065821B6D4D9200B08092 /* LaunchScreen.xib */,
 				840065771B6D4D9200B08092 /* Supporting Files */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8400659C1B6DD57A00B08092 /* CourseOverviewViewController.swift in Sources */,
+				8400659A1B6DD56600B08092 /* ProfileViewController.swift in Sources */,
+				840065A01B6EC2F200B08092 /* EditProfileViewController.swift in Sources */,
 				8400657C1B6D4D9200B08092 /* ViewController.swift in Sources */,
+				84DB972B1B7016AA001EBB44 /* CurrentWeekViewController.swift in Sources */,
 				8400657A1B6D4D9200B08092 /* AppDelegate.swift in Sources */,
+				8400659E1B6DD94700B08092 /* CourseCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +431,7 @@
 				840065951B6D4D9200B08092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840065961B6D4D9200B08092 /* Build configuration list for PBXNativeTarget "codepath_appTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				840065981B6D4D9200B08092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
